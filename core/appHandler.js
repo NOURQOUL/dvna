@@ -34,7 +34,7 @@ module.exports.userSearch = function (req, res) {
 		})
 	})
 }
-
+/// nour test
 module.exports.ping = function (req, res) {
 	exec('ping -c 2 ' + req.body.address, function (err, stdout, stderr) {
 		output = stdout + stderr
